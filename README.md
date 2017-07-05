@@ -4,6 +4,6 @@ The problem is to simulate mowers moving (and presumably mowing also) on a recta
 
 The program is fed an input file. The input file starts with a line, giving the dimensions of the surface. Then, for each mower there are two lines, one giving the initial position and orientation of the mower, and the second giving a series of actions. The codes for actions are G (gauche - left in french) for rotating left, D (droit - right in french) for rotating right, A for advancing one square. A sample input file is given in the project folder.
 
-Executing the program, runs the simulation and it prints (on a separate line) the position of each mower.
+Executing the program, runs the simulation and it prints (on a separate line) the final position of each mower.
 
 This somewhat artificial and contrived problem, has just enough rules to showcase how can they be tested with ScalaCheck.
